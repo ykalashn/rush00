@@ -27,7 +27,7 @@ void	rush(int x, int y)
 				ft_putchar('/');
 			else if ((col == x - 1 && row == 0) || (col == 0 && row == y - 1))
 				ft_putchar('\\');
-			else if ((col == 0 || col == x - 1) || (row == 0 || row  == y - 1))
+			else if ((col == 0 || col == x - 1) || (row == 0 || row == y - 1))
 				ft_putchar('*');
 			else
 				ft_putchar(' ');
